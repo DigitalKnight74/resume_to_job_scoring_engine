@@ -1,0 +1,4 @@
+resume_id,file_name,candidate_name,target_role,experience_level,notes
+R001,knight_mock_data_analysis_v1.txt,George,Data Scientist,Mid-Level,DA-focused resume
+R002,knight_moct_data_science_v1.txt,George,Data Analyst,Mid-Level,DS-focused resume
+R003,knight_mock_data_science_v2.txt,Mock Candidate,Project Manager,Mid-Level,DS-focused resume 

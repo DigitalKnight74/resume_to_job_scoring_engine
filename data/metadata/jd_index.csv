@@ -1,0 +1,6 @@
+jd_id,file_name,job_title,company,role_category,experience_level,notes
+J001,jd_ai_engineer_it_01.txt,AI Engineer,Company A,AI,Mid-Level,
+J002,jd_data_scientist_neurohire_01.txt,Data Scientist,Company B,Data Science,Entry-Level,
+J003,jd_business_intelligence_analyst_yesdi_01.txt,BI Analyst,Company C,BI,Mid-Level,
+J004,jd_data_analyst_intern_logistics_01.txt,Data Analyst,Company D,DA,Entry-Level,
+J005,jd_data_analyst_pnc_01.txt,Data Analyst,Company E,DA,Entry-Level,
