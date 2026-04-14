@@ -39,6 +39,14 @@ SKILL_TAXONOMY = {
   ]
 }
 
+SYNONYMS = {
+    "ml": "machine learning",
+    "ai": "artificial intelligence",
+    "models": "machine learning",
+    "etl": "data pipeline",
+    "pipelines": "data pipeline"
+}
+
 SCORING_WEIGHTS = {
   "keyword_score": 0.40,
   "skill_score": 0.30,

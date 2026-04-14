@@ -38,7 +38,7 @@ def compute_skill_match_score(resume_text: str, jd_text: str, skill_taxonomy:dic
 
 def compute_experience_score(resume_text: str, jd_text: str) -> float:
     """
-    Basic phrase-based experience score.
+    Improved experience scoring using flexible phrase matching.
     """
 
     experience_phrases = [
@@ -56,12 +56,26 @@ def compute_experience_score(resume_text: str, jd_text: str) -> float:
     resume_lower = resume_text.lower()
     jd_lower = jd_text.lower()
 
-    relevant_phrases = [phrase for phrase in experience_phrases if phrase in jd_lower]
-    if not relevant_phrases:
-        return 0.0
+    # Only consider phrases relevant to the JD
+    relevant_phrases = []
+
+    for phrase in experience_phrases:
+        words = phrase.split()
+        if any(word in jd_lower for word in words):
+            relevant_phrases.append(phrase)
     
-    matched = [phrase for phrase in relevant_phrases if phrase in resume_lower]
-    return round((len(matched) / len(relevant_phrases)) * 100, 2)
+    matched_count = 0
+
+    for phrase in relevant_phrases:
+        words = phrase.split()
+
+        # Check if ANY meaningful word from teh phrase appears in resume
+        if any(word in resume_lower for word in words):
+            matched_count += 1
+    
+    return round((matched_count / len(relevant_phrases)) * 100, 2)
+
+    print("Relevant Phrases:", relevant_phrases)
 
 def compute_education_score(resume_text: str, jd_text: str) -> float:
     """
