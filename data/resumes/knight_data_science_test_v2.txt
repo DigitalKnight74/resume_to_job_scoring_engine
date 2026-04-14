@@ -1,0 +1,37 @@
+GEORGE W. KNIGHT, JR, MBA
+Hoboken, NJ | (254) 541-7686 | career.path25gwk@gmail.com
+LinkedIn: linkedin.com/in/knightgeorge | GitHub: Knight Data Science Portfolio
+DATA SCIENTIST | DATA-DRIVEN SYSTEMS LEADER
+Data-focused systems leader with 20+ years of experience transforming complex, ambiguous information into structured, decision-ready insights. Skilled in Python (Pandas, NumPy, Scikit-learn), SQL, and machine learning techniques to clean, analyze, and model large datasets. Proven track record of improving data integrity, optimizing processes, and delivering actionable insights that drive measurable business outcomes. Combines deep operational leadership with hands-on data science expertise.
+TECHNICAL SKILLS
+Python (Pandas, NumPy, Scikit-learn)
+SQL (Data Extraction & Transformation)
+Machine Learning (Classification, Regression)
+Data Cleaning & Validation
+Exploratory Data Analysis (EDA)
+Feature Engineering
+Statistical Analysis
+Data Visualization (Matplotlib, Seaborn)
+Excel (Advanced), Power BI
+GitHub, Jupyter Notebooks
+DATA SCIENCE PROJECTS
+Instacart Market Basket Analysis: Processed and validated 3M+ records, resolving missing data and uncovering customer behavior patterns to support segmentation and recommendation strategies.
+Customer Churn Prediction (Beta Bank): Built classification models achieving F1 > 0.59 using class imbalance techniques; optimized recall and evaluated performance using ROC-AUC.
+Megaline Plan Recommendation: Developed ML models achieving >75% accuracy; engineered behavioral features and validated model performance.
+Zyfra Gold Recovery Prediction: Built regression models on industrial data; performed feature selection and improved prediction reliability using RMSE and R² evaluation.
+PROFESSIONAL EXPERIENCE
+Technical Writing Manager – L3Harris Technologies (2022–Present)
+• Lead a 19-person cross-functional team delivering technical documentation and training.
+• Conducted data-driven trade studies and presented strategic recommendations to executive leadership.
+• Improved documentation workflows and data accuracy across complex systems.
+• Translated complex technical data into clear, actionable insights.
+Project Coordinator / Supervisor – SunPower (2021–2022)
+• Managed 500+ projects, reducing delivery timelines by 20%.
+• Increased customer satisfaction by 25% through data-informed process improvements.
+Assistant Shift Manager – Amazon Logistics (2019–2020)
+• Reduced routing errors by 78% through operational data analysis.
+• Managed high-volume logistics data (10M+ items) to improve efficiency.
+EDUCATION
+TripleTen Data Science Bootcamp (In Progress)
+MBA – Texas A&M University – Texarkana
+BA – Mid-America Christian University

@@ -1,0 +1,63 @@
+About
+
+NeuroHire is building an AI-first SaaS platform that helps companies make smarter hiring decisions using real data — not guesswork. We work with complex, messy hiring datasets and turn them into insights, models, and product features that directly impact outcomes.
+
+We’re looking for a Data Scientist who enjoys going deep into data, building models, and influencing product decisions — not just running analyses.
+
+If you like combining statistics, machine learning, and business thinking to solve real problems, you’ll fit right in.
+
+What You’ll Work On
+
+At NeuroHire, Data Scientists sit at the intersection of data, product, and AI.
+
+Analyze large datasets to uncover patterns, trends, and insights
+
+Build predictive models for matching, ranking, and hiring outcomes
+
+Work on NLP problems like resume understanding, skill extraction, and candidate-job alignment
+
+Design experiments and evaluate feature performance (A/B testing)
+
+Collaborate with product and engineering teams to translate insights into features
+
+Define and track key metrics to measure model and product performance
+
+Clean, process, and structure messy real-world datasets
+
+Communicate findings clearly to both technical and business stakeholders
+
+Continuously improve models using real-world feedback
+
+What We’re Looking For
+
+We value strong fundamentals and practical impact.
+
+2–5+ years of experience in data science or applied ML roles
+
+Strong foundation in statistics, probability, and machine learning
+
+Proficiency in Python (pandas, NumPy, scikit-learn, etc.)
+
+Experience building and evaluating predictive models
+
+Familiarity with NLP techniques or unstructured data
+
+Experience working with SQL and large datasets
+
+Strong analytical thinking and problem-solving skills
+
+Ability to communicate insights clearly and effectively
+
+Comfortable working in a fast-paced startup environment
+
+Nice to Have (Not Required)
+
+Experience with deep learning or transformer-based models
+
+Exposure to LLMs or generative AI applications
+
+Experience with experimentation frameworks (A/B testing)
+
+Familiarity with cloud platforms (AWS, GCP, Azure)
+
+Experience in SaaS or product-driven companies

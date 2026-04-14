@@ -1,0 +1,62 @@
+Job Title: Business Intelligence (BI) Analyst
+Location: Westminster, MD (Hybrid/Remote options may apply)
+Company: Yesdi, Inc.
+
+About the Role:
+We are seeking a skilled Business Intelligence (BI) Analyst to transform complex business data into actionable insights. You will create dashboards, reports, and visualizations that inform decision-making across our organization, with a particular focus on aviation safety data. The ideal candidate is passionate about turning data into strategic insights and has hands-on experience with BI tools like Tableau, Power BI, and ArcGIS.
+
+Key Responsibilities:
+
+Gather, analyze, and interpret business data to generate meaningful insights and visualizations that inform decision-making.
+
+Develop and maintain advanced dashboards, reports, and analytics solutions using Tableau, Power BI, ArcGIS, or similar tools.
+
+Translate business requirements into functional system designs and actionable BI solutions.
+
+Collect, mine, manage, and analyze data, ensuring accuracy, integrity, and consistency across all outputs.
+
+Conduct deep-dive analyses to support business initiatives and provide data-driven recommendations.
+
+Collaborate with stakeholders to understand analytical needs and deliver effective BI solutions.
+
+Stay current with BI tools and technologies, recommending improvements to existing systems and processes.
+
+Work with data engineers and IT teams to ensure seamless data integration and optimal BI performance.
+
+Present findings and insights to senior management and other key stakeholders.
+
+Qualifications:
+
+Bachelor’s degree in business administration, Data Science, Information Technology, or related field (Master’s preferred).
+
+2–5 years of experience as a Business Intelligence Analyst or similar role.
+
+Proficiency in BI tools such as Tableau, Power BI, or QlikView.
+
+Strong SQL skills with experience in data modeling and data warehousing concepts.
+
+Excellent analytical, problem-solving, and attention-to-detail skills.
+
+Strong communication skills with the ability to explain complex analytical findings to non-technical audiences.
+
+Ability to manage multiple projects independently.
+
+Aviation industry experience preferred.
+
+Knowledge, Skills & Abilities:
+
+Understanding of BI concepts, data warehousing, ETL processes, and reporting best practices.
+
+Experience with relational and dimensional data modeling (star/snowflake schemas).
+
+Knowledge of cloud analytics platforms (AWS QuickSight, Redshift, Azure Synapse, Power BI).
+
+Proficiency in designing and maintaining dashboards, automated reports, and data visualizations.
+
+Skilled in data storytelling and translating insights into actionable business recommendations.
+
+Ability to maintain confidentiality and adhere to data governance and compliance standards (e.g., NIST, FISMA, FAA).
+
+Preferred/Additional:
+
+Experience in BI development within regulated industries (aviation, government, finance, healthcare).

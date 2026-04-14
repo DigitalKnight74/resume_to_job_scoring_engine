@@ -1,0 +1,58 @@
+Job Title: AI Engineer
+
+Location -Houston,TX
+
+Job Title: Applied AI Engineer
+
+Job Summary:
+
+We are seeking a talented and driven Applied AI Engineer to join our growing Data & AI team. This role is ideal for an experienced software engineer with a deep understanding of generative AI technologies and a passion for building scalable, production-grade AI solutions. You will be responsible for designing, prototyping, and deploying GenAI-powered applications, while also contributing to our AI platform architecture across cloud environments such as Google Cloud Platform (GCP) and Microsoft Azure.
+
+ 
+
+Key Responsibilities:
+
+Translate business needs into robust, scalable GenAI technical solutions.
+Design, prototype, and implement LLM-driven applications using techniques such as RAG, prompt engineering, fine-tuning, and vector search.
+Develop APIs and reusable software components in Python to support GenAI applications.
+Leverage orchestration frameworks (e.g., LangChain, LlamaIndex, or LangGraph) to deliver dynamic and modular AI workflows.
+Collaborate with cross-functional teams to integrate AI capabilities into business applications.
+Deploy and monitor GenAI models and pipelines using cloud-native tools, Kubernetes, and serverless architectures.
+Continuously evaluate model and system performance, implementing improvements as needed.
+Create and maintain technical documentation and support materials for deployed solutions.
+ 
+
+Working Conditions:
+
+Hybrid work model: Onsite in Houston office 3 days per week.
+Open office environment.
+ 
+
+Minimum Requirements:
+
+Bachelor’s or Master’s degree in Computer Science, AI/ML, or a related field.
+5+ years of software development experience with strong Python skills.
+2–3+ years of hands-on experience building GenAI/LLM-based applications.
+ADK is Must
+Experience developing multi-step agent workflows using LangGraph or similar orchestration frameworks.
+Proficient in designing retrieval pipelines: document loaders, chunking strategies, embedding models, and vector database integration.
+Strong grasp of GenAI concepts, including:
+Retrieval-Augmented Generation (RAG)
+Embeddings & vector databases (e.g., FAISS, Pinecone, ChromaDB)
+Prompt engineering and fine-tuning
+LLM APIs (e.g., OpenAI, Claude, Gemini)
+Experience deploying cloud-native solutions using GCP 
+Solid understanding of API design, microservices, and software architecture patterns.
+Familiarity with version control systems (e.g., Git, Azure DevOps).
+Experience with Docker and Kubernetes.
+Demonstrated ability to build and scale AI/ML solutions from proof-of-concept to production.
+ 
+
+Preferred Qualifications:
+
+Experience with GenAI orchestration tools (e.g., LangChain, LlamaIndex).
+Familiarity with DevOps practices: Azure DevOps, YAML pipelines, Terraform.
+Strong interpersonal and communication skills, with the ability to collaborate across teams and influence decision-making.
+Self-starter with a proactive mindset and strong problem-solving abilities.
+Ability to work both independently and in collaborative team environments.
+Interest in leveraging AI tools to enhance productivity and solution delivery.Í

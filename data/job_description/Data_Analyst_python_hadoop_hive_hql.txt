@@ -1,0 +1,58 @@
+Job description
+Position Overview
+
+At PNC, our people are our greatest differentiator and competitive advantage in the markets we serve. We are all united in delivering the best experience for our customers. We work together each day to foster an inclusive workplace culture where all of our employees feel respected, valued and have an opportunity to contribute to the company’s success. As a Data Analyst within PNC's Technology organization, you will be based in Dallas, TX
+
+Hands on experience with :
+
+- Python Coding
+- Hadoop/Hive HQL concepts and Queries
+- SQL
+- Oracle
+- Excellent proven communication with stakeholders and leadership
+- API experience not necessary, but nice to have
+
+PNC is an in-office company that fosters a supportive culture where employees can thrive and achieve balance. We encourage candidates to connect with their recruiter and hiring manager to understand workplace expectations and ensure the role aligns with their goals.
+
+PNC will not provide sponsorship for employment visas or participate in STEM OPT for this position.
+
+Job Description
+
+Provides support to the business and other internal IT organizations regarding data definition standards, architectures, and policies.
+Provides support to business users for mining and interpretation of warehoused and operational data.
+Plans and performs activities regarding designed data models for systems development.
+Resolves metadata and data sourcing problems. Maintains metadata and data dictionaries.
+Manages data definitions and data traceability within data repository to improve documentation and coordination.
+
+PNC Employees take pride in our reputation and to continue building upon that we expect our employees to be:
+
+Customer Focused - Knowledgeable of the values and practices that align customer needs and satisfaction as primary considerations in all business decisions and able to leverage that information in creating customized customer solutions.
+Managing Risk - Assessing and effectively managing all of the risks associated with their business objectives and activities to ensure they adhere to and support PNC's Enterprise Risk Management Framework.
+ 
+Qualifications
+
+Successful candidates must demonstrate appropriate knowledge, skills, and abilities for a role. Listed below are skills, competencies, work experience, education, and required certifications/licensures needed to be successful in this position.
+
+Preferred Skills
+
+Analytical Thinking, Apache Hadoop, Apache Hive, Competitive Advantages, Data Analytics, Data Mining, Data Science, Machine Learning (ML), Oracle, Structured Query Language (SQL)
+
+Competencies
+
+Analytical Thinking, Core Application Systems, Data Administration, Database Structures, Data Warehousing, Effective Communications, Information Assurance, Logical Data Modeling, Query and Database Access Tools, Requirements Analysis
+
+Work Experience
+
+Roles at this level typically require a university / college degree, with 2+ years of relevant professional experience. In lieu of a degree, a comparable combination of education, job specific certification(s), and experience (including military service) may be considered.
+
+Education
+
+Bachelors
+
+Certifications
+
+No Required Certification(s)
+
+Licenses
+
+No Required License(s)

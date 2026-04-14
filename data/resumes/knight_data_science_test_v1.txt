@@ -1,0 +1,64 @@
+GEORGE W. KNIGHT, JR 
+Temple, TX | 254-541-7686 | career.path25gwk.com  linkedin.com/in/knightgeorge
+DATA SCIENCE PROFESSIONAL | STRATEGIC ANALYST­­
+ Military Veteran and Technical Writing Manager transitioning into Data Science, offering 20+ years of experience leading cross-functional teams, implementing process improvements, and delivering data-driven insights. Skilled in Python, Pandas, Power BI, and advanced Excel. Proven ability to translate complex data into clear, strategic decisions. Currently completing a TripleTen Data Science Bootcamp with hands-on projects including Instacart data analysis.
+RELEVANT DATA PROJECTS
+ZYFRA GOLD RECOVERY PREDICTION
+TRIPLETEN DATA SCIENCE BOOTCAMP (2026)
+·       Analyzed multi-stage production data to identify key drivers of output yield, enabling optimization of operational parameters analogous to SKU-level performance & supply efficiency.
+·       Built and validated predictive models to forecast recovery outcomes, supporting data-driven decisions to eliminate low-ROI operational inputs – mirroring trade-spend and assortment optimization use cases.
+·       Performed time-series data preparation and feature selection to ensure model alignment with real-world production timelines, like POS lag and promotional impact analysis. 
+BETA BANK CUSTOMER CHURN
+TRIPLETEN DATA SCIENCE BOOTCAMP (2025)
+·       Analyzed customer behavior data to identify churn risk factors – analogous to household-level attrition and brand switching analysis in retail environments.
+·       Developed classification models to predict customer attrition and surface leading indicators – supporting proactive retention strategies like loyalty and repeat-purchase initiatives.
+·       Delivered actionable insights through clear reporting and visualizations – enabling stakeholders to prioritize high-impact retention and engagement opportunities.
+MEGALINE PLAN RECOMMENDATION MODEL
+ TRIPLETEN DATA SCIENCE BOOTCAMP (2025)
+·       Conducted customer segmentation and usage analysis to evaluate plan performance – comparable to analyzing consumer purchase behavior across product tiers and promotional offers.
+·       Built analytical models to recommend optimized pricing strategies, balancing revenue growth and customer retention – alignment with CPG price-pack architecture and promo mix decisions.
+·       Performed plan-vs-actual and cohort analyses to quantify performance lift, supporting data-backed recommendations for commercial strategy adjustments.
+PROFESSIONAL SKILLS
+CROSS-FUNCTIONAL BUSINESS PARTNERSHIP 
+·     Partnered with Engineering, and Sector Leadership to help translate complex data and ideas into actionable insight for executive decision-making.
+PROJECT MANAGEMENT & STAKEHOLDER ALIGNMENT 
+·        Led contracted projects end-to-end by identifying scope, timelines, milestones, and deliverables using data to drive alignment across multiple stakeholders with a 98% On-time delivery.
+DATA STORYTELLING & EXECUTIVE COMMUNICATION 
+·       Communicated critical insights through clear dashboards, post-event recaps, and presentations tailored to non-technical audiences, resulting in 99% accuracy and timeliness.
+ANALYTICAL PROBLEM SOLVING & INSIGHT GENERATION
+·       Identified trends, outliers, and performance gaps through structured analysis to support employee growth, department optimization, and streamlining of program tasks.
+TECHNICAL SKILLS
+SQL                                 Python Programming Language          Data Pipelines
+Excel                              Power BI                                                        Project & Workflow Tools
+Data Analysis               Financial & ROI Trend Analysis
+Power Automate       Dashboard Automation 
+WORK EXPERIENCE
+TECHNICAL WRITING MANAGER
+L3Harris Technologies, Inc. |Waco, TX | Aug 2022 – Oct 2025
+·       Directed a 19-member documentation and training team across multiple aerospace programs, improving on-time delivery to technical publications by 22% and reducing revision errors by 15% through enhanced workflow coordination.
+·       Led multi-vendor S1000D XML trade study and business case analysis, identifying modernization solutions projected to save 200+ staff-hours per quarter while increasing cross-platform documentation consistency.
+·       Partnered with engineering and executive leadership to implement process and reporting improvements using EVMS and KPI dashboards, resulting in 30% faster project visibility and more accurate budget forecasting.
+
+ 
+PROJECT COORDINATOR SUPERVISOR
+SunPower Corp | Austin, TX |2021-2022 
+·       Managed on-time, on-budget delivery of over 500 residential solar panel projects
+·       Reduced project timelines by 20% and improved CSAT by 25%. 
+EDUCATION
+MASTER OF BUSINESS ADMINISTRATION
+Texas A&M University - Texarkana | Aug 2014
+·       3.75 GPA
+·       Completed courses in Finance, Business, and Organizational leadership
+BACHELOR OF ARTS IN CHRISTIAN MINISTRIES
+Mid-America Christian University| Dec 2008
+·       3.8 GPA
+·       Completed courses in theology and Christian ministry
+PERSONAL PROJECTS
+MARKETING ASSISTANT FOR PUBLIC SPEAKING CLUB 
+2017 - 2018
+·       As a member of the Public Speaking Club at University of Pennsylvania, assisted the club with creating a monthly newsletter
+·       Managed social media accounts for the club, consistently posting content and engaging with followers 
+MARKETING CONSULTANT 
+2020 - Present 
+·       Assisted a friend with the creation and management of photography business website
+·       Used Google Analytics and Google Search Console to measure the performance of website content
