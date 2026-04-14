@@ -1,0 +1,100 @@
+"""
+Scoring logic for resume-to-job matching.
+"""
+
+from src.extract import extract_keywords, extract_skills, flatten_skill_matches
+
+def compute_keyword_overlap_score(resume_text: str, jd_text: str) -> float:
+    """
+    Compute overlap score between resume and job description keywords.
+    """
+    resume_keywords = set(extract_keywords(resume_text))
+    jd_keywords = set(extract_keywords(jd_text))
+
+    if not jd_keywords:
+        return 0.0
+    
+    overlap = resume_keywords.intersection(jd_keywords)
+    return round((len(overlap) / len(jd_keywords)) * 100, 2)
+
+def compute_skill_match_score(resume_text: str, jd_text: str, skill_taxonomy:dict) -> tuple[float, set[str], set[str]]:
+    """
+    Compute skill match score and return matched and missing skills.
+    """
+    resume_skill_matches = extract_skills(resume_text, skill_taxonomy)
+    jd_skill_matches = extract_skills(jd_text, skill_taxonomy)
+    
+    resume_skills = flatten_skill_matches(resume_skill_matches)
+    jd_skills = flatten_skill_matches(jd_skill_matches)
+    
+    if not jd_skills:
+        return 0.0, set(), set()
+    
+    matched = resume_skills.intersection(jd_skills)
+    missing = jd_skills.difference(resume_skills)
+    score = round((len(matched) / len(jd_skills)) * 100, 2)
+    
+    return score, matched, missing
+
+def compute_experience_score(resume_text: str, jd_text: str) -> float:
+    """
+    Basic phrase-based experience score.
+    """
+
+    experience_phrases = [
+        'machine learning',
+        'data analysis',
+        'dashboard',
+        'reporting',
+        'process improvement',
+        'stakeholder communication',
+        'feature engineering',
+        'model evaluation',
+        'workflow automation'
+    ]
+
+    resume_lower = resume_text.lower()
+    jd_lower = jd_text.lower()
+
+    relevant_phrases = [phrase for phrase in experience_phrases if phrase in jd_lower]
+    if not relevant_phrases:
+        return 0.0
+    
+    matched = [phrase for phrase in relevant_phrases if phrase in resume_lower]
+    return round((len(matched) / len(relevant_phrases)) * 100, 2)
+
+def compute_education_score(resume_text: str, jd_text: str) -> float:
+    """
+    Basic education and credential matching.
+    """
+
+    education_terms = [
+        'bachelor', 'master', 'phd', 'bootcamp', 'certification'
+    ]
+
+    resume_lower = resume_text.lower()
+    jd_lower = jd_text.lower()
+
+    required_terms = [term for term in education_terms if term in jd_lower]
+    if not required_terms:
+        return 100.0
+    
+    matched = [term for term in required_terms if term in resume_lower]
+    return round((len(matched) / len(required_terms)) * 100, 2)
+
+def calculate_overall_score(
+    keyword_score: float,
+    skill_score: float,
+    experience_score:float,
+    education_score: float,
+    scoring_weights: dict
+) -> float:
+    """
+    Calculate weighted overall score.
+    """
+    overall = (keyword_score * scoring_weights["keyword_score"] +
+               skill_score * scoring_weights["skill_score"] +
+               experience_score * scoring_weights["experience_score"] +
+               education_score * scoring_weights["education_score"]
+    )
+    return round(overall, 2)
