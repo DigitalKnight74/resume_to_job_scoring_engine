@@ -36,6 +36,32 @@ def compute_skill_match_score(resume_text: str, jd_text: str, skill_taxonomy:dic
     
     return score, matched, missing
 
+def compute_skill_category_scores(
+    resume_text: str,
+    jd_text: str,
+    skill_taxonomy: dict
+) -> dict[str, float]:
+    """
+    Compute skill match scores by category.
+    """
+    resume_lower = resume_text.lower()
+    jd_lower = jd_text.lower()
+
+    category_scores = {}
+
+    for category, skills in skill_taxonomy.items():
+        jd_skills = {skill.lower() for skill in skills if skill.lower() in jd_lower}
+        resume_skills = {skill.lower() for skill in skills if skill.lower() in resume_lower}
+
+        if not jd_skills:
+            continue
+        
+        matched = jd_skills.intersection(resume_skills)
+        score = round((len(matched) / len(jd_skills)) * 100, 2)
+        category_scores[category] = score
+    
+    return category_scores
+
 def compute_experience_score(resume_text: str, jd_text: str) -> float:
     """
     Improved experience scoring using flexible phrase matching.

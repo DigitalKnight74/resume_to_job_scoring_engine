@@ -5,6 +5,7 @@ Simple demo runner for the Resume-to-Job Match Scoring Engine.
 from src.config import SKILL_TAXONOMY, SCORING_WEIGHTS
 from src.io_utils import load_text_file
 from src.extract import extract_top_keywords
+from src.score import compute_skill_category_scores
 from src.score import (
     compute_keyword_overlap_score,
     compute_skill_match_score,
@@ -28,6 +29,9 @@ def main() -> None:
     skill_score, matched_skills, missing_skills = compute_skill_match_score(
         resume_text, jd_text, SKILL_TAXONOMY
     )
+    category_scores = compute_skill_category_scores(
+        resume_text, jd_text, SKILL_TAXONOMY
+    )
     experience_score = compute_experience_score(resume_text, jd_text)
     education_score = compute_education_score(resume_text, jd_text)
 
@@ -43,11 +47,17 @@ def main() -> None:
         "overall_score": overall_score,
         "keyword_score": keyword_score,
         "skill_score": skill_score,
+        "category_scores": category_scores,
         "experience_score": experience_score,
         "education_score": education_score,
         "matched_skills": matched_skills,
         "missing_skills": missing_skills,
-        "recommendations": generate_recommendations(missing_skills)
+        "recommendations": generate_recommendations(
+            missing_skills=missing_skills,
+            keyword_score=keyword_score,
+            experience_score=experience_score,
+            education_score=education_score
+        )
     }
 
     print("Matched Skills:", matched_skills)

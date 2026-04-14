@@ -10,7 +10,10 @@ def extract_keywords(text: str, min_token_length: int = 3) -> list[str]:
     Extract keywords from text using simple token fitlering.
     """
     tokens = tokenize(text)
-    keywords = [token for token in tokens if len(token) >= min_token_length]
+    keywords = [
+        token for token in tokens
+        if len(token) >= min_token_length and not token.isdigit()
+    ]
     return keywords
 
 def extract_top_keywords(text: str, top_n: int = 25) -> list[tuple[str, int]]:
@@ -24,7 +27,7 @@ def extract_top_keywords(text: str, top_n: int = 25) -> list[tuple[str, int]]:
 
 def extract_skills(text: str, skill_taxonomy: dict) -> dict[str, list[str]]:
     """
-    Extract mactcing skills from text using hte provided skill taxonomy.
+    Extract mactching skills from text using hte provided skill taxonomy.
     Returns matched skill grouped by category.
     """
     normalized_text = normalize_text(text)

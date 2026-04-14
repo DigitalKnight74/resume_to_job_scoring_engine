@@ -6,7 +6,7 @@ import re
 from src.config import SYNONYMS
 
 STOP_WORDS = {
-    "the", "and", "or", "a", "an", "to", "for", "of", "in", "on", "with", "by", "at", "from", "is", "are", "was", "were", "be", "as", "that", "this", "it", "will", "can", "using", "use", "our", "your", "their", "we", "you", "they", "all", "any", "each", "every", "job", "role", "position", "work", "working", "company", "team", "employees", "within", "description", "required", "preferred"
+    "the", "and", "or", "a", "an", "to", "for", "of", "in", "on", "with", "by", "at", "from", "is", "are", "was", "were", "be", "as", "that", "this", "it", "will", "can", "using", "use", "our", "your", "their", "we", "you", "they", "all", "any", "each", "every", "job", "role", "position", "work", "working", "company", "team", "employees", "within", "description", "required", "preferred","experience", "skills", "education", "support", "business", "project", "projects"
 }
 
 def apply_synonyms(text: str) -> str:
