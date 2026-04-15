@@ -21,8 +21,8 @@ def main() -> None:
 
     # Debug Block
     print("\n--- DEBUG: TOP KEYWORDS ---")
-    print("\Top Resume Keywords:", extract_top_keywords(resume_text))
-    print("\Top JD Keywords:", extract_top_keywords(jd_text))
+    print("Top Resume Keywords:", extract_top_keywords(resume_text))
+    print("Top JD Keywords:", extract_top_keywords(jd_text))
     print("----------------------------------\n")
     
     keyword_score = compute_keyword_overlap_score(resume_text, jd_text)

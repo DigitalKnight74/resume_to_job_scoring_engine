@@ -44,19 +44,19 @@ def compute_skill_category_scores(
     """
     Compute skill match scores by category.
     """
-    resume_lower = resume_text.lower()
-    jd_lower = jd_text.lower()
-
+    resume_skill_matches = extract_skills(resume_text, skill_taxonomy)
+    jd_skill_matches = extract_skills(jd_text, skill_taxonomy)
+    
     category_scores = {}
 
-    for category, skills in skill_taxonomy.items():
-        jd_skills = {skill.lower() for skill in skills if skill.lower() in jd_lower}
-        resume_skills = {skill.lower() for skill in skills if skill.lower() in resume_lower}
+    for category in skill_taxonomy:
+        resume_skills = {skill.lower() for skill in resume_skill_matches.get(category, [])}
+        jd_skills = {skill.lower() for skill in jd_skill_matches.get(category, [])}
 
         if not jd_skills:
             continue
         
-        matched = jd_skills.intersection(resume_skills)
+        matched = resume_skills.intersection(jd_skills)
         score = round((len(matched) / len(jd_skills)) * 100, 2)
         category_scores[category] = score
     
@@ -66,7 +66,6 @@ def compute_experience_score(resume_text: str, jd_text: str) -> float:
     """
     Improved experience scoring using flexible phrase matching.
     """
-
     experience_phrases = [
         'machine learning',
         'data analysis',
@@ -108,12 +107,12 @@ def compute_education_score(resume_text: str, jd_text: str) -> float:
     Basic education and credential matching.
     """
 
+    resume_lower = resume_text.lower()
+    jd_lower = jd_text.lower()
+
     education_terms = [
         'bachelor', 'master', 'phd', 'bootcamp', 'certification'
     ]
-
-    resume_lower = resume_text.lower()
-    jd_lower = jd_text.lower()
 
     required_terms = [term for term in education_terms if term in jd_lower]
     if not required_terms:
